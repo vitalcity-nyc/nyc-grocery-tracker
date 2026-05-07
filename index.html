@@ -395,7 +395,7 @@ const layers = {};
 const counts = {};
 let allFeatures = [];
 
-fetch('data/processed/nyc_food_stores_merged.geojson')
+fetch('data/processed/nyc_food_stores_merged.geojson?v=20260507')
   .then(r => r.json())
   .then(geo => {
     allFeatures = geo.features;
@@ -501,7 +501,7 @@ function choroColor(per10k, pop) {
 
 function loadDensityLayer() {
   if (densityLayer) return Promise.resolve(densityLayer);
-  return fetch('data/processed/nyc_zip_density.geojson')
+  return fetch('data/processed/nyc_zip_density.geojson?v=20260507')
     .then(r => r.json())
     .then(geo => {
       densityLayer = L.geoJSON(geo, {

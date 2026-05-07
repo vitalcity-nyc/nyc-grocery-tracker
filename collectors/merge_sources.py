@@ -35,11 +35,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = REPO_ROOT / "data" / "processed"
 STATE_PATH = PROCESSED / "nyc_food_stores.geojson"
 OSM_PATH = PROCESSED / "osm_nyc_food_stores.geojson"
+CATEGORIES_PATH = PROCESSED / "osm_categories.geojson"
 OUT_PATH = PROCESSED / "nyc_food_stores_merged.geojson"
 
 MATCH_RADIUS_M = 80
 MATCH_AUTO_M = 50  # within this radius, match without requiring name overlap
 OSM_DEDUP_RADIUS_M = 30  # OSM-only entries within this distance are merged
+CATEGORY_OVERRIDE_M = 25  # OSM category point this close overrides is_supermarket
 
 
 def haversine_m(lat1, lon1, lat2, lon2):
@@ -101,6 +103,65 @@ def main() -> int:
     for f in state_features:
         f["properties"]["source"] = "ny_state"
         f["properties"]["osm_shop"] = ""
+        f["properties"]["osm_override"] = ""
+
+    # ---- Step 1b: override is_supermarket using OSM category data ----
+    # If an OSM brewery, bar, restaurant, pharmacy, etc. sits within
+    # CATEGORY_OVERRIDE_M of a state store, that store is almost certainly
+    # NOT a supermarket regardless of what its name suggests. This catches
+    # cases like "FINBACK BROOKLYN LLC" that name-keywords miss.
+    cat_override_count = 0
+    if CATEGORIES_PATH.exists():
+        cats = json.load(open(CATEGORIES_PATH))
+        # Spatial grid for OSM category points
+        cell = 0.005  # ~500m
+        cat_grid = {}
+        for cf in cats["features"]:
+            clon, clat = cf["geometry"]["coordinates"]
+            key = (round(clat / cell), round(clon / cell))
+            cat_grid.setdefault(key, []).append(cf)
+        for f in state_features:
+            if not f["properties"].get("is_supermarket"):
+                continue
+            slon, slat = f["geometry"]["coordinates"]
+            best_cat = None
+            best_d = CATEGORY_OVERRIDE_M + 1
+            ck = (round(slat / cell), round(slon / cell))
+            for dx in (-1, 0, 1):
+                for dy in (-1, 0, 1):
+                    for cf in cat_grid.get((ck[0] + dx, ck[1] + dy), []):
+                        clon, clat = cf["geometry"]["coordinates"]
+                        d = haversine_m(slat, slon, clat, clon)
+                        if d <= CATEGORY_OVERRIDE_M and d < best_d:
+                            best_cat = cf["properties"]["category"]
+                            best_d = d
+            if best_cat:
+                # Some categories don't disqualify a supermarket on their
+                # own (e.g., shop=deli or shop=butcher inside a Whole Foods
+                # entrance can be tagged separately). Only override for
+                # clearly disqualifying tags.
+                hard_disqualify = (
+                    best_cat.startswith("craft=") or
+                    best_cat in (
+                        "amenity=bar", "amenity=pub", "amenity=nightclub",
+                        "amenity=biergarten", "amenity=restaurant",
+                        "amenity=fast_food", "amenity=cafe",
+                        "amenity=ice_cream", "amenity=pharmacy",
+                        "amenity=fuel", "amenity=tobacco_shop",
+                        "shop=alcohol", "shop=wine", "shop=tobacco",
+                        "shop=bakery", "shop=pastry", "shop=chocolate",
+                        "shop=confectionery", "shop=coffee", "shop=tea",
+                        "shop=chemist", "shop=cosmetics", "shop=gas",
+                    )
+                )
+                if hard_disqualify:
+                    f["properties"]["is_supermarket"] = False
+                    f["properties"]["size_class"] = "Other licensed food retailer"
+                    f["properties"]["osm_override"] = best_cat
+                    cat_override_count += 1
+        print(f"  OSM category overrides applied: {cat_override_count}", file=sys.stderr)
+    else:
+        print(f"  (no OSM categories file at {CATEGORIES_PATH}; skipping override step)", file=sys.stderr)
 
     # Index state features by approximate grid for fast spatial lookup
     cell = 0.005  # ~500m

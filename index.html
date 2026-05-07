@@ -395,7 +395,7 @@ const layers = {};
 const counts = {};
 let allFeatures = [];
 
-fetch('data/processed/nyc_food_stores_merged.geojson?v=20260507')
+fetch('data/processed/nyc_food_stores_merged.geojson?v=20260507c')
   .then(r => r.json())
   .then(geo => {
     allFeatures = geo.features;
@@ -435,6 +435,9 @@ fetch('data/processed/nyc_food_stores_merged.geojson?v=20260507')
         const sourceStr = p.source === 'both' ? 'NY State + OSM'
           : p.source === 'osm' ? 'OpenStreetMap (likely new opening)'
           : 'NY State Ag &amp; Markets';
+        const overrideStr = p.osm_override
+          ? `<div class="meta" style="color:#b94322;">Reclassified by OSM tag: <code>${escapeHtml(p.osm_override)}</code></div>`
+          : '';
         const licenseStr = p.license
           ? `License ${escapeHtml(p.license)} &middot; ${sourceStr}`
           : sourceStr;
@@ -442,6 +445,7 @@ fetch('data/processed/nyc_food_stores_merged.geojson?v=20260507')
           `<div class="name">${escapeHtml(p.name || 'Unnamed store')}</div>` +
           `<div class="meta">${escapeHtml(p.address)}${p.zip ? ', ' + escapeHtml(p.zip) : ''}</div>` +
           `<div class="meta">${sqftStr} &middot; ${escapeHtml(p.size_class)}</div>` +
+          overrideStr +
           `<div class="meta" style="margin-top:4px;">${licenseStr}</div>`
         );
         layer.addLayer(marker);
@@ -501,7 +505,7 @@ function choroColor(per10k, pop) {
 
 function loadDensityLayer() {
   if (densityLayer) return Promise.resolve(densityLayer);
-  return fetch('data/processed/nyc_zip_density.geojson?v=20260507')
+  return fetch('data/processed/nyc_zip_density.geojson?v=20260507c')
     .then(r => r.json())
     .then(geo => {
       densityLayer = L.geoJSON(geo, {

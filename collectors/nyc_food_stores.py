@@ -162,7 +162,13 @@ def main() -> int:
                 sqft = int(float(sqft_raw))
             except (ValueError, TypeError):
                 sqft = None
-        name_for_filter = (r.get("dba_name") or r.get("entity_name") or "").upper()
+        # Run name filter against BOTH dba_name and entity_name -- some
+        # operators file an innocuous DBA but the legal entity name reveals
+        # the category (e.g., "FINBACK BROOKLYN" / "FINBACK BREWERY LLC").
+        name_for_filter = " ".join([
+            (r.get("dba_name") or "").upper(),
+            (r.get("entity_name") or "").upper(),
+        ]).strip()
         is_supermarket = is_likely_supermarket(name_for_filter, sqft)
         size_class = classify(sqft, is_supermarket)
         county = (r.get("county") or "").upper()

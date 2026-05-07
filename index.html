@@ -279,12 +279,18 @@
         <span class="count" data-count="Size unknown"></span>
       </label>
       <label class="toggle">
+        <input type="checkbox" data-class="OSM-only supermarket" checked>
+        <span class="swatch" style="background: #2d8659"></span>
+        <span class="label-text">OSM-only (likely new opening)</span>
+        <span class="count" data-count="OSM-only supermarket"></span>
+      </label>
+      <label class="toggle">
         <input type="checkbox" data-class="Other licensed food retailer">
         <span class="swatch" style="background: #d4a26a"></span>
         <span class="label-text">Pharmacy, dollar store, brewery, etc.</span>
         <span class="count" data-count="Other licensed food retailer"></span>
       </label>
-      <p class="legend-note">"Likely supermarket" excludes names matching pharmacy / dollar / brewery / restaurant / bakery patterns. Imperfect but better than trusting square footage alone.</p>
+      <p class="legend-note">"Likely supermarket" excludes names matching pharmacy / dollar / brewery / restaurant / bakery patterns. OSM-only entries are stores tagged shop=supermarket on OpenStreetMap that aren't in the state license file (e.g., Lidl Park Slope at 120 Fifth Ave) — typically new openings.</p>
     </div>
 
     <div id="density-controls" style="display:none;">
@@ -341,6 +347,7 @@ const SIZE_COLORS = {
   "Corner store or specialty":  "#b8b8b8",
   "Size unknown":               "#d6d6d6",
   "Other licensed food retailer": "#d4a26a",
+  "OSM-only supermarket":         "#2d8659",
 };
 const SIZE_RADII = {
   "Large supermarket":          7,
@@ -349,6 +356,7 @@ const SIZE_RADII = {
   "Corner store or specialty":  3,
   "Size unknown":               3,
   "Other licensed food retailer": 3.5,
+  "OSM-only supermarket":         6,
 };
 // 2020 Census borough population
 const BOROUGH_POP = {
@@ -387,7 +395,7 @@ const layers = {};
 const counts = {};
 let allFeatures = [];
 
-fetch('data/processed/nyc_food_stores.geojson')
+fetch('data/processed/nyc_food_stores_merged.geojson')
   .then(r => r.json())
   .then(geo => {
     allFeatures = geo.features;
@@ -424,11 +432,17 @@ fetch('data/processed/nyc_food_stores.geojson')
           fillOpacity: 0.78,
         });
         const sqftStr = p.sqft ? p.sqft.toLocaleString() + ' sqft' : 'size not reported';
+        const sourceStr = p.source === 'both' ? 'NY State + OSM'
+          : p.source === 'osm' ? 'OpenStreetMap (likely new opening)'
+          : 'NY State Ag &amp; Markets';
+        const licenseStr = p.license
+          ? `License ${escapeHtml(p.license)} &middot; ${sourceStr}`
+          : sourceStr;
         marker.bindPopup(
           `<div class="name">${escapeHtml(p.name || 'Unnamed store')}</div>` +
-          `<div class="meta">${escapeHtml(p.address)}, ${escapeHtml(p.borough)} ${escapeHtml(p.zip)}</div>` +
+          `<div class="meta">${escapeHtml(p.address)}${p.zip ? ', ' + escapeHtml(p.zip) : ''}</div>` +
           `<div class="meta">${sqftStr} &middot; ${escapeHtml(p.size_class)}</div>` +
-          `<div class="meta" style="margin-top:4px;">License ${escapeHtml(p.license)}</div>`
+          `<div class="meta" style="margin-top:4px;">${licenseStr}</div>`
         );
         layer.addLayer(marker);
       }
@@ -453,6 +467,8 @@ fetch('data/processed/nyc_food_stores.geojson')
       const isSuper = f.properties.is_supermarket;
       if (!b) continue;
       if (!boroughCounts[b]) boroughCounts[b] = 0;
+      // Note: OSM-only stores have empty borough; they are reflected in the
+      // per-ZIP density layer but not in this borough panel.
       if (isSuper && sqft && sqft >= 5000) boroughCounts[b] += 1;
     }
     const rows = Object.entries(boroughCounts).map(([b, n]) => {
@@ -673,7 +689,7 @@ function showNearest(lat, lon, label) {
   // Filter to full supermarkets (Standard + Large)
   const candidates = allFeatures.filter(f => {
     const p = f.properties;
-    return p.is_supermarket && p.sqft && p.sqft >= 5000;
+    return p.is_supermarket && ((p.sqft && p.sqft >= 5000) || p.source === 'osm');
   });
   const scored = candidates.map(f => {
     const [flon, flat] = f.geometry.coordinates;

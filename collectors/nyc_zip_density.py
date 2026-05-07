@@ -33,7 +33,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = REPO_ROOT / "data" / "processed"
-STORES_PATH = PROCESSED / "nyc_food_stores.geojson"
+_MERGED = PROCESSED / "nyc_food_stores_merged.geojson"
+_BASE = PROCESSED / "nyc_food_stores.geojson"
+STORES_PATH = _MERGED if _MERGED.exists() else _BASE
 OUT_PATH = PROCESSED / "nyc_zip_density.geojson"
 
 MODZCTA_URL = "https://data.cityofnewyork.us/resource/pri4-ifjk.geojson?$limit=300"
@@ -89,7 +91,9 @@ def main() -> int:
         all_store_count[m] = all_store_count.get(m, 0) + 1
         is_super = bool(p.get("is_supermarket"))
         sqft = p.get("sqft")
-        if is_super and sqft and sqft >= 5000:
+        source = p.get("source", "")
+        # Count if either: passes filter AND >=5000 sqft, OR is OSM-tagged supermarket (no sqft)
+        if is_super and ((sqft and sqft >= 5000) or source == "osm"):
             full_super_count[m] = full_super_count.get(m, 0) + 1
 
     # Build output GeoJSON

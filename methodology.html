@@ -48,8 +48,12 @@
   <tr><th>Dataset</th><th>Provider</th><th>Used for</th></tr>
   <tr><td>Retail Food Stores (resource <code>9a8c-vfzj</code>)</td><td>NY State Department of Agriculture and Markets, via <a href="https://data.ny.gov/Economic-Development/Retail-Food-Stores/9a8c-vfzj">data.ny.gov</a></td><td>Store name, address, latitude/longitude, square footage, establishment type</td></tr>
   <tr><td>2020 Decennial Census borough totals</td><td>U.S. Census Bureau</td><td>Computing supermarkets per 100,000 residents</td></tr>
+  <tr><td>OpenStreetMap (Overpass API)</td><td>OSM contributors, ODbL license</td><td>Cross-check against the state file. OSM stores tagged <code>shop=supermarket</code> that aren't in the state file are flagged as &quot;OSM-only (likely new opening)&quot; — for example, the Lidl at 120 Fifth Avenue in Brooklyn</td></tr>
   <tr><td>La Marqueta site location</td><td>NYC Mayor's Office, April 2026 announcement</td><td>Marker for the first announced public supermarket site</td></tr>
 </table>
+
+<h2>Why not Google Maps?</h2>
+<p>Google Maps has cleaner business categories than the state license file (it tags supermarkets as <code>supermarket</code>, pharmacies as <code>pharmacy</code>, and so on) and updates more frequently. We do not use it for two reasons. First, Google Maps Platform terms of service prohibit storing or redistributing Place content (name, address, category) for more than 30 days outside a Google-rendered map, which would make a public, downloadable, methodology-transparent map like this one impossible. Second, OpenStreetMap offers comparable category data under an open license (ODbL) that explicitly permits redistribution, and its NYC supermarket coverage is strong — including new openings the state file misses.</p>
 
 <h2>How stores were classified</h2>
 <p>The NY State retail food store license is a single license that covers any retailer selling packaged food: a corner bodega, a Whole Foods, a brewery taproom, a Walgreens, and a wholesale Restaurant Depot all hold the same license. Square footage alone is therefore not enough to identify supermarkets &mdash; a 20,000-square-foot Walgreens is not a grocery store, and a 7,000-square-foot Threes Brewing is not either.</p>
@@ -98,7 +102,15 @@
 </ul>
 
 <h2>How to reproduce this</h2>
-<p>The collector script is in the project repository under <code>collectors/nyc_food_stores.py</code>. It pulls the full file from the state's open data API, filters to the five NYC counties and stores marked <code>operation_type=Store</code>, drops rows without a georeference, applies the size classification, and writes a GeoJSON file plus a flat CSV. Anyone can re-run it; no API key is required.</p>
+<p>Three collector scripts live in the project repository under <code>collectors/</code>:</p>
+<ul>
+  <li><code>nyc_food_stores.py</code> — pulls the state license file, applies the name filter, classifies by square footage</li>
+  <li><code>osm_supermarkets.py</code> — pulls every NYC <code>shop=supermarket|grocery|convenience</code> from OpenStreetMap via Overpass</li>
+  <li><code>merge_sources.py</code> — fuzzy-matches the two by 80 m proximity and adds OSM-only supermarkets as new features tagged <code>source=osm</code></li>
+  <li><code>nyc_zip_density.py</code> — joins stores to NYC Modified ZCTAs and computes per-10k density</li>
+</ul>
+<p>None require API keys. Run them in order. Outputs land in <code>data/processed/</code>.</p>
+<p>The OSM contribution is licensed ODbL: &copy; OpenStreetMap contributors.</p>
 
 <h2>Why this exists</h2>
 <p>In April 2026 Mayor Mamdani announced that New York City will open one publicly owned supermarket in each borough, beginning with a 9,000-square-foot store at La Marqueta in East Harlem. The stated goal is to lower grocery prices in underserved neighborhoods by removing the rent and capital costs that strain private operators. Whether the chosen sites are in fact in supermarket-poor areas, and whether prices in those neighborhoods actually move once the stores open, are questions that require a public baseline of where supermarkets are today. This map is that baseline. It will be re-pulled monthly so the historical record stays current.</p>

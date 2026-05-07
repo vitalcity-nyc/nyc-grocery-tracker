@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New York City supermarket map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --ink-light: #555;
+    --ink-faint: #888;
+    --rule: #e5e5e5;
+    --bg: #fafafa;
+    --panel: #ffffff;
+    --accent: #c23616;
+    --large: #1f3a93;
+    --standard: #4a90c2;
+    --small: #7eb8d9;
+    --corner: #b8b8b8;
+    --unknown: #d6d6d6;
+    --site: #c23616;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.5;
+  }
+  header {
+    padding: 20px 24px 14px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--rule);
+  }
+  header .kicker {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--ink-light);
+    max-width: 780px;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: calc(100vh - 96px);
+  }
+  @media (max-width: 760px) {
+    .layout { grid-template-columns: 1fr; height: auto; }
+    .panel { height: auto; max-height: none; }
+    #map { height: 70vh; }
+  }
+  .panel {
+    overflow-y: auto;
+    background: var(--panel);
+    border-right: 1px solid var(--rule);
+    padding: 16px 18px 24px;
+    font-size: 13.5px;
+  }
+  .panel h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    margin: 18px 0 8px;
+    font-weight: 600;
+  }
+  .panel h2:first-child { margin-top: 0; }
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle input { margin: 0; }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.18);
+  }
+  .toggle .label-text { flex: 1; }
+  .toggle .count { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+  table.stats {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+  table.stats td {
+    padding: 4px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13px;
+  }
+  table.stats td:first-child { color: var(--ink-light); }
+  table.stats td:last-child { text-align: right; font-weight: 500; }
+  #map { height: 100%; width: 100%; }
+  .leaflet-popup-content {
+    margin: 10px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .leaflet-popup-content .name { font-weight: 600; margin-bottom: 2px; }
+  .leaflet-popup-content .meta { color: var(--ink-faint); font-size: 12px; }
+  .legend-note {
+    color: var(--ink-faint);
+    font-size: 12px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  .footer-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px solid currentColor;
+  }
+  .site-pin {
+    background: var(--site);
+    color: white;
+    border-radius: 50%;
+    width: 24px; height: 24px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700;
+    border: 3px solid white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  .loading {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: white; padding: 12px 20px; border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    font-size: 14px;
+    z-index: 1000;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">PUBLIC SUPERMARKET ACCOUNTABILITY</div>
+  <h1>Where are New York City's supermarkets?</h1>
+  <p>Every licensed retail food store in the five boroughs, sized by reported square footage. Mayor Mamdani has said the city will open one public supermarket in each borough; the first is planned for La Marqueta in East Harlem. This map is the baseline for asking which neighborhoods have a real supermarket today and which do not. <a href="methodology.html" class="footer-link" style="margin-top:0;">Methodology &amp; sources &rarr;</a></p>
+</header>
+
+<div class="layout">
+  <aside class="panel">
+    <h2>Store size</h2>
+    <label class="toggle">
+      <input type="checkbox" data-class="Large supermarket" checked>
+      <span class="swatch" style="background: var(--large)"></span>
+      <span class="label-text">Large supermarket (10,000+ sqft)</span>
+      <span class="count" data-count="Large supermarket"></span>
+    </label>
+    <label class="toggle">
+      <input type="checkbox" data-class="Standard supermarket" checked>
+      <span class="swatch" style="background: var(--standard)"></span>
+      <span class="label-text">Standard (5,000-9,999)</span>
+      <span class="count" data-count="Standard supermarket"></span>
+    </label>
+    <label class="toggle">
+      <input type="checkbox" data-class="Small supermarket or grocer" checked>
+      <span class="swatch" style="background: var(--small)"></span>
+      <span class="label-text">Small grocer (2,500-4,999)</span>
+      <span class="count" data-count="Small supermarket or grocer"></span>
+    </label>
+    <label class="toggle">
+      <input type="checkbox" data-class="Corner store or specialty">
+      <span class="swatch" style="background: var(--corner)"></span>
+      <span class="label-text">Corner / specialty (under 2,500)</span>
+      <span class="count" data-count="Corner store or specialty"></span>
+    </label>
+    <label class="toggle">
+      <input type="checkbox" data-class="Size unknown">
+      <span class="swatch" style="background: var(--unknown)"></span>
+      <span class="label-text">Size not reported</span>
+      <span class="count" data-count="Size unknown"></span>
+    </label>
+    <p class="legend-note">Roughly 23 percent of stores have no reported square footage. They are off by default.</p>
+
+    <h2>Full supermarkets per 100,000 residents</h2>
+    <p style="font-size:12px; color:var(--ink-faint); margin:0 0 6px;">5,000+ sqft only. Population from 2020 Census.</p>
+    <table class="stats" id="density-table"></table>
+
+    <h2>Planned public supermarket sites</h2>
+    <table class="stats">
+      <tr><td>La Marqueta, East Harlem</td><td>announced</td></tr>
+      <tr><td>Bronx site</td><td>TBD</td></tr>
+      <tr><td>Brooklyn site</td><td>TBD</td></tr>
+      <tr><td>Queens site</td><td>TBD</td></tr>
+      <tr><td>Staten Island site</td><td>TBD</td></tr>
+    </table>
+
+    <a href="methodology.html" class="footer-link">Methodology &amp; sources</a>
+  </aside>
+
+  <div style="position: relative;">
+    <div id="loading" class="loading">Loading 11,000+ stores&hellip;</div>
+    <div id="map"></div>
+  </div>
+</div>
+
+<script>
+const SIZE_COLORS = {
+  "Large supermarket":          "#1f3a93",
+  "Standard supermarket":       "#4a90c2",
+  "Small supermarket or grocer":"#7eb8d9",
+  "Corner store or specialty":  "#b8b8b8",
+  "Size unknown":               "#d6d6d6",
+};
+const SIZE_RADII = {
+  "Large supermarket":          7,
+  "Standard supermarket":       5.5,
+  "Small supermarket or grocer":4.5,
+  "Corner store or specialty":  3,
+  "Size unknown":               3,
+};
+// 2020 Census borough population
+const BOROUGH_POP = {
+  "Manhattan":     1694251,
+  "Bronx":         1472654,
+  "Brooklyn":      2736074,
+  "Queens":        2405464,
+  "Staten Island": 495747,
+};
+
+const map = L.map('map', {
+  center: [40.730, -73.95],
+  zoom: 11,
+  preferCanvas: true,
+}).setView([40.730, -73.95], 11);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO',
+  subdomains: 'abcd',
+  maxZoom: 19,
+}).addTo(map);
+
+// La Marqueta marker
+const laMarqueta = L.marker([40.7995, -73.9357], {
+  icon: L.divIcon({
+    className: '',
+    html: '<div class="site-pin">M</div>',
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+  }),
+  zIndexOffset: 1000,
+}).addTo(map);
+laMarqueta.bindPopup('<div class="name">La Marqueta (planned)</div><div class="meta">Mayor Mamdani\'s first announced public supermarket site. East Harlem, Manhattan.</div>');
+
+const layers = {};
+const counts = {};
+let allFeatures = [];
+
+fetch('data/processed/nyc_food_stores.geojson')
+  .then(r => r.json())
+  .then(geo => {
+    allFeatures = geo.features;
+    document.getElementById('loading').remove();
+
+    // Group features by size class
+    const grouped = {};
+    for (const f of allFeatures) {
+      const cls = f.properties.size_class;
+      if (!grouped[cls]) grouped[cls] = [];
+      grouped[cls].push(f);
+      counts[cls] = (counts[cls] || 0) + 1;
+    }
+
+    // Update sidebar counts
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const cls = el.getAttribute('data-count');
+      el.textContent = (counts[cls] || 0).toLocaleString();
+    });
+
+    // Build a layer per class
+    for (const cls of Object.keys(SIZE_COLORS)) {
+      const feats = grouped[cls] || [];
+      const layer = L.layerGroup();
+      for (const f of feats) {
+        const [lon, lat] = f.geometry.coordinates;
+        const p = f.properties;
+        const marker = L.circleMarker([lat, lon], {
+          radius: SIZE_RADII[cls],
+          fillColor: SIZE_COLORS[cls],
+          color: '#222',
+          weight: 0.4,
+          opacity: 0.9,
+          fillOpacity: 0.78,
+        });
+        const sqftStr = p.sqft ? p.sqft.toLocaleString() + ' sqft' : 'size not reported';
+        marker.bindPopup(
+          `<div class="name">${escapeHtml(p.name || 'Unnamed store')}</div>` +
+          `<div class="meta">${escapeHtml(p.address)}, ${escapeHtml(p.borough)} ${escapeHtml(p.zip)}</div>` +
+          `<div class="meta">${sqftStr} &middot; ${escapeHtml(p.size_class)}</div>` +
+          `<div class="meta" style="margin-top:4px;">License ${escapeHtml(p.license)}</div>`
+        );
+        layer.addLayer(marker);
+      }
+      layers[cls] = layer;
+    }
+
+    // Initial display: supermarket classes only (per default checkboxes)
+    document.querySelectorAll('input[data-class]').forEach(input => {
+      const cls = input.getAttribute('data-class');
+      if (input.checked) layers[cls].addTo(map);
+      input.addEventListener('change', () => {
+        if (input.checked) layers[cls].addTo(map);
+        else map.removeLayer(layers[cls]);
+      });
+    });
+
+    // Compute density table
+    const boroughCounts = {};
+    for (const f of allFeatures) {
+      const b = f.properties.borough;
+      const sqft = f.properties.sqft;
+      if (!b) continue;
+      if (!boroughCounts[b]) boroughCounts[b] = 0;
+      if (sqft && sqft >= 5000) boroughCounts[b] += 1;
+    }
+    const rows = Object.entries(boroughCounts).map(([b, n]) => {
+      const pop = BOROUGH_POP[b];
+      const per100k = pop ? (n / pop * 100000) : 0;
+      return { borough: b, count: n, per100k: per100k };
+    }).sort((a, b) => b.per100k - a.per100k);
+    const tbl = document.getElementById('density-table');
+    tbl.innerHTML = rows.map(r =>
+      `<tr><td>${r.borough}</td><td>${r.per100k.toFixed(1)} (${r.count})</td></tr>`
+    ).join('');
+  })
+  .catch(err => {
+    document.getElementById('loading').textContent = 'Failed to load store data: ' + err.message;
+    console.error(err);
+  });
+
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+</script>
+</body>
+</html>

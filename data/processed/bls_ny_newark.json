@@ -1,0 +1,8378 @@
+{
+  "fetched_at": "2026-05-07T20:34:22.564134Z",
+  "source": "BLS Public API v2, area A101 (New York-Newark-Jersey City, NY-NJ-PA)",
+  "series": {
+    "CUURS12ASA0": "All items",
+    "CUURS12ASAF1": "Food",
+    "CUURS12ASAF11": "Food at home",
+    "CUURS12ASEFV": "Food away from home",
+    "CUURS12ASAF111": "Cereals and bakery products",
+    "CUURS12ASAF112": "Meats, poultry, fish, and eggs",
+    "CUURS12ASAF113": "Dairy and related products",
+    "CUURS12ASAF114": "Fruits and vegetables",
+    "CUURS12ASAF115": "Nonalcoholic beverages",
+    "CUURS12ASAF116": "Other food at home"
+  },
+  "data": [
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 1,
+      "date": "2017-01-01",
+      "value": 266.917
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 2,
+      "date": "2017-02-01",
+      "value": 267.662
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 3,
+      "date": "2017-03-01",
+      "value": 267.582
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 4,
+      "date": "2017-04-01",
+      "value": 267.948
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 5,
+      "date": "2017-05-01",
+      "value": 268.183
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 6,
+      "date": "2017-06-01",
+      "value": 268.666
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 7,
+      "date": "2017-07-01",
+      "value": 268.051
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 8,
+      "date": "2017-08-01",
+      "value": 268.657
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 9,
+      "date": "2017-09-01",
+      "value": 270.059
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 10,
+      "date": "2017-10-01",
+      "value": 269.575
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 11,
+      "date": "2017-11-01",
+      "value": 269.381
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 269.564
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 270.771
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 272.214
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 272.196
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 272.95
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 274.001
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 274.17
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 274.073
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 274.441
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 275.455
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 275.101
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 274.478
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 273.836
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 275.144
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 275.823
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 276.57
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 277.441
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 278.068
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 278.802
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 278.817
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 279.428
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 279.338
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 279.255
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 279.468
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 279.816
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 282.02
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 282.577
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 281.975
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 280.623
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 282.092
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 282.333
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 283.624
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 283.478
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 284.551
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 284.121
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 283.291
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 284.35
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 285.525
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 286.474
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 287.481
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 289.493
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 290.991
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 293.872
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 293.553
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 293.927
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 295.488
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 296.472
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 297.49
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 296.865
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 300.164
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 301.151
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 305.024
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 307.781
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 309.243
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 313.589
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 312.615
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 313.28
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 313.88
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 314.338
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 314.975
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 315.656
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 318.151
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 319.295
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 319.038
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 319.211
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 320.002
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 321.29
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 322.496
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 324.38
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 325.613
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 325.288
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 324.52
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 324.691
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 328.006
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 328.606
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 329.829
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 331.27
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 332.633
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 334.782
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 335.642
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 336.534
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 337.889
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 338.166
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 338.535
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 338.61
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 341.144
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 342.333
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 342.508
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 344.047
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 343.886
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 346.332
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 346.385
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 347.266
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 348.096
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 348.62
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 350.003
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 350.947
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 353.366
+    },
+    {
+      "series_id": "CUURS12ASA0",
+      "label": "All items",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 356.169
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 1,
+      "date": "2017-01-01",
+      "value": 258.298
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 2,
+      "date": "2017-02-01",
+      "value": 258.088
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 3,
+      "date": "2017-03-01",
+      "value": 259.498
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 4,
+      "date": "2017-04-01",
+      "value": 260.674
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 5,
+      "date": "2017-05-01",
+      "value": 260.113
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 6,
+      "date": "2017-06-01",
+      "value": 260.545
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 7,
+      "date": "2017-07-01",
+      "value": 261.032
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 8,
+      "date": "2017-08-01",
+      "value": 261.084
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 9,
+      "date": "2017-09-01",
+      "value": 261.243
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 10,
+      "date": "2017-10-01",
+      "value": 262.309
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 11,
+      "date": "2017-11-01",
+      "value": 262.244
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 262.646
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 263.302
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 264.022
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 263.802
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 265.777
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 266.126
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 266.74
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 267.302
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 267.423
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 269.323
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 267.978
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 267.775
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 268.381
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 269.865
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 270.046
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 270.756
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 270.294
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 269.643
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 271.257
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 270.351
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 271.882
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 272.104
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 273.37
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 271.226
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 272.678
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 274.07
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 274.12
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 274.371
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 281.38
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 284.654
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 284.462
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 282.301
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 282.44
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 282.165
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 283.504
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 283.049
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 283.892
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 283.787
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 284.173
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 285.064
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 287.25
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 287.277
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 289.528
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 291.792
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 293.132
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 297.658
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 299.049
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 301.334
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 302.121
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 305.12
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 307.079
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 307.94
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 312.658
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 314.914
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 315.948
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 321.624
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 322.899
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 322.838
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 324.816
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 327.358
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 328.103
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 330.715
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 330.955
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 332.515
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 333.502
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 331.137
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 332.95
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 332.929
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 332.496
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 334.336
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 336.258
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 336.151
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 336.391
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 338.232
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 336.813
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 336.438
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 338.799
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 337.816
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 339.65
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 338.577
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 338.649
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 341.228
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 341.038
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 342.364
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 344.065
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 344.081
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 345.956
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 347.076
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 345.045
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 347.513
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 347.573
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 350.252
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 350.956
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 353.326
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 355.302
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 354.588
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 355.665
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 357.858
+    },
+    {
+      "series_id": "CUURS12ASAF1",
+      "label": "Food",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 358.434
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 1,
+      "date": "2017-01-01",
+      "value": 249.82
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 2,
+      "date": "2017-02-01",
+      "value": 249.874
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 3,
+      "date": "2017-03-01",
+      "value": 250.689
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 4,
+      "date": "2017-04-01",
+      "value": 252.619
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 5,
+      "date": "2017-05-01",
+      "value": 251.321
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 6,
+      "date": "2017-06-01",
+      "value": 252.02
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 7,
+      "date": "2017-07-01",
+      "value": 252.61
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 8,
+      "date": "2017-08-01",
+      "value": 252.606
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 9,
+      "date": "2017-09-01",
+      "value": 252.197
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 10,
+      "date": "2017-10-01",
+      "value": 253.405
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 11,
+      "date": "2017-11-01",
+      "value": 252.759
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 252.929
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 253.655
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 254.308
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 253.35
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 255.712
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 254.915
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 255.693
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 256.679
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 256.82
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 259.499
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 257.363
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 256.92
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 257.467
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 259.288
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 258.689
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 259.546
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 258.348
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 256.611
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 258.911
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 257.017
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 258.183
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 258.462
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 260.764
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 256.906
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 258.504
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 261.131
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 260.651
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 261.184
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 270.644
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 274.785
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 272.888
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 270.732
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 269.424
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 268.109
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 268.221
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 267.638
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 268.16
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 267.564
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 267.5
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 268.347
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 271.55
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 271.019
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 273.446
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 275.851
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 276.818
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 280.498
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 281.298
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 283.223
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 284.34
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 287.86
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 291.811
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 293.548
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 298.825
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 301.121
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 301.169
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 308.723
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 309.877
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 308.665
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 310.55
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 312.627
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 313.065
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 315.61
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 316.115
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 316.315
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 317.146
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 313.418
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 314.529
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 314.574
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 313.259
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 315.621
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 317.787
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 316.301
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 315.692
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 317.847
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 315.929
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 315.211
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 318.325
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 315.821
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 318.218
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 316.68
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 316.518
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 320.248
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 319.668
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 320.692
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 321.974
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 322.052
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 324.204
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 325.517
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 321.696
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 324.126
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 323.98
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 327.698
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 327.652
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 331.2
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 333.322
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 331.683
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 332.699
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 335.211
+    },
+    {
+      "series_id": "CUURS12ASAF11",
+      "label": "Food at home",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 335.931
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 291.754
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 292.946
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 300.689
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 300.0
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 304.872
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 299.737
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 305.975
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 299.33
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 304.336
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 308.903
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 296.814
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 297.196
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 299.45
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 298.472
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 305.249
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 306.981
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 300.794
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 306.056
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 303.424
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 301.955
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 305.701
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 303.658
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 305.65
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 301.352
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 302.844
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 306.081
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 304.005
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 303.916
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 310.214
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 308.436
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 319.724
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 324.531
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 313.247
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 307.449
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 309.804
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 311.966
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 312.008
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 305.978
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 309.918
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 303.628
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 315.173
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 313.059
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 305.328
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 309.598
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 315.58
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 323.252
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 319.918
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 325.432
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 325.086
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 332.357
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 337.711
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 338.718
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 344.547
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 344.468
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 354.08
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 360.658
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 366.0
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 365.245
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 373.297
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 376.817
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 376.941
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 376.394
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 375.363
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 377.702
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 385.698
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 383.126
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 381.92
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 382.577
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 383.01
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 385.09
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 386.861
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 387.213
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 385.477
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 386.116
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 385.046
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 378.797
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 390.038
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 375.43
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 384.636
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 384.009
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 382.795
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 386.834
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 384.663
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 380.991
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 380.83
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 380.581
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 387.337
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 380.043
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 386.953
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 400.382
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 395.708
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 399.466
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 396.142
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 398.517
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 401.687
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 397.307
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 400.859
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 390.748
+    },
+    {
+      "series_id": "CUURS12ASAF111",
+      "label": "Cereals and bakery products",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 391.429
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 254.684
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 253.174
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 249.423
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 253.558
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 252.465
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 249.946
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 252.605
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 254.407
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 253.685
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 253.06
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 254.372
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 254.66
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 254.975
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 252.938
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 251.255
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 254.454
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 254.478
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 249.685
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 255.91
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 253.356
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 253.208
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 252.924
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 257.535
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 251.183
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 256.3
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 256.578
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 257.609
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 261.942
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 270.179
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 284.368
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 280.832
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 270.862
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 270.925
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 267.103
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 267.554
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 264.553
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 263.533
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 263.792
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 262.388
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 269.027
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 274.012
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 275.305
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 286.111
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 291.533
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 292.127
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 291.242
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 298.135
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 303.561
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 302.863
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 305.91
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 307.037
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 307.003
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 310.064
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 315.452
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 314.7
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 322.909
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 319.374
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 315.37
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 317.735
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 316.908
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 316.717
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 320.37
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 320.273
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 316.091
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 317.217
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 309.44
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 311.089
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 314.354
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 310.794
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 310.834
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 315.541
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 313.712
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 314.662
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 317.801
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 314.927
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 316.246
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 318.848
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 318.134
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 320.379
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 316.04
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 322.048
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 325.616
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 320.084
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 326.319
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 328.336
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 336.566
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 343.185
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 344.48
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 339.036
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 337.706
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 335.28
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 338.6
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 339.611
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 343.995
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 345.265
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 342.993
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 342.361
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 346.886
+    },
+    {
+      "series_id": "CUURS12ASAF112",
+      "label": "Meats, poultry, fish, and eggs",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 340.735
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 322.785
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 325.573
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 321.201
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 317.788
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 328.053
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 328.729
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 321.847
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 323.239
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 325.772
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 329.982
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 327.795
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 332.1
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 336.83
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 337.497
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 333.452
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 334.342
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 325.386
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 328.599
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 326.234
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 326.964
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 324.092
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 332.166
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 334.425
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 331.159
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 334.575
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 340.468
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 332.596
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 330.553
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 341.61
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 339.187
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 338.841
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 340.323
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 339.187
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 340.519
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 340.972
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 345.518
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 346.208
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 343.461
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 339.875
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 346.307
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 341.386
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 339.627
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 339.105
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 338.818
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 335.143
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 348.422
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 340.75
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 343.561
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 342.009
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 347.452
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 359.267
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 361.793
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 371.918
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 369.151
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 354.723
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 368.453
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 370.153
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 375.459
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 376.44
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 375.92
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 380.802
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 379.628
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 382.686
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 373.584
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 379.891
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 379.859
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 378.003
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 374.277
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 372.273
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 376.236
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 383.458
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 379.444
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 379.659
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 382.195
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 378.293
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 370.866
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 378.868
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 371.873
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 369.985
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 371.011
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 375.024
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 378.193
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 380.95
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 381.786
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 384.443
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 376.126
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 368.708
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 366.215
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 369.003
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 366.086
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 367.486
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 373.977
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 377.727
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 383.44
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 385.363
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 383.073
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 387.01
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 395.208
+    },
+    {
+      "series_id": "CUURS12ASAF113",
+      "label": "Dairy and related products",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 406.106
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 244.113
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 249.631
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 254.564
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 248.601
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 251.067
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 243.716
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 252.958
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 252.946
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 249.937
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 254.493
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 252.442
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 248.387
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 246.39
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 258.466
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 256.656
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 248.616
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 255.104
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 251.206
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 261.808
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 257.32
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 255.727
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 255.641
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 256.687
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 249.305
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 245.19
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 254.065
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 257.741
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 257.368
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 266.718
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 273.103
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 265.127
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 263.544
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 260.941
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 266.563
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 258.466
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 254.793
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 264.311
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 262.536
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 269.623
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 269.176
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 268.312
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 266.678
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 267.008
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 271.829
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 272.953
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 277.94
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 279.078
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 276.801
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 278.989
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 279.959
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 284.524
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 286.341
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 286.533
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 292.951
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 299.112
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 301.367
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 305.963
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 298.191
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 306.939
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 307.964
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 306.163
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 312.699
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 313.642
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 319.11
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 317.283
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 311.647
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 317.104
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 317.522
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 315.417
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 317.824
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 316.456
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 314.672
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 314.399
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 322.658
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 316.794
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 323.057
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 316.994
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 316.656
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 319.101
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 315.023
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 310.368
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 314.036
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 323.281
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 320.977
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 321.879
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 327.048
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 328.685
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 331.181
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 326.044
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 328.805
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 324.429
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 324.746
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 330.699
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 338.748
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 339.729
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 338.262
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 346.477
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 352.063
+    },
+    {
+      "series_id": "CUURS12ASAF114",
+      "label": "Fruits and vegetables",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 348.598
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 220.845
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 219.943
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 222.146
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 221.633
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 222.763
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 227.023
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 224.946
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 228.701
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 226.603
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 230.264
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 227.388
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 225.48
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 225.145
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 226.663
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 228.02
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 230.412
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 229.749
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 226.441
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 225.216
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 223.073
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 228.253
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 224.557
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 227.025
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 225.52
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 226.983
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 226.667
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 229.0
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 228.597
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 239.915
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 239.612
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 234.973
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 235.371
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 235.98
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 234.735
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 236.981
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 235.92
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 233.564
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 234.763
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 235.309
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 230.122
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 235.774
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 236.062
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 237.801
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 238.153
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 240.977
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 242.625
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 244.643
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 243.003
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 245.372
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 248.448
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 251.589
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 256.321
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 261.032
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 264.597
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 265.84
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 273.726
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 276.296
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 274.851
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 272.672
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 276.292
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 276.399
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 280.897
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 280.567
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 288.175
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 284.852
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 283.284
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 283.943
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 281.539
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 282.261
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 284.323
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 285.82
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 284.668
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 282.81
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 280.346
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 281.878
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 285.091
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 284.545
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 288.399
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 289.746
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 288.546
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 282.921
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 288.9
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 285.307
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 286.826
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 287.548
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 285.421
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 289.184
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 293.553
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 283.961
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 288.495
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 291.158
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 295.859
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 290.784
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 294.389
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 296.644
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 297.085
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 294.386
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 297.176
+    },
+    {
+      "series_id": "CUURS12ASAF115",
+      "label": "Nonalcoholic beverages",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 298.248
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 1,
+      "date": "2017-01-01",
+      "value": 253.983
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 2,
+      "date": "2017-02-01",
+      "value": 254.398
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 3,
+      "date": "2017-03-01",
+      "value": 254.0
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 4,
+      "date": "2017-04-01",
+      "value": 253.582
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 5,
+      "date": "2017-05-01",
+      "value": 253.006
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 6,
+      "date": "2017-06-01",
+      "value": 253.397
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 7,
+      "date": "2017-07-01",
+      "value": 254.156
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 8,
+      "date": "2017-08-01",
+      "value": 254.669
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 9,
+      "date": "2017-09-01",
+      "value": 255.792
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 10,
+      "date": "2017-10-01",
+      "value": 257.289
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 11,
+      "date": "2017-11-01",
+      "value": 256.463
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 255.544
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 256.039
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 257.818
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 256.93
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 257.265
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 258.191
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 261.554
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 261.241
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 261.847
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 264.753
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 264.58
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 263.475
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 264.326
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 264.364
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 263.448
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 264.415
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 263.215
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 266.044
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 265.516
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 264.232
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 266.36
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 268.545
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 267.412
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 266.733
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 267.591
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 269.654
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 269.341
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 271.981
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 271.661
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 272.738
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 270.889
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 270.502
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 271.408
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 273.471
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 275.545
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 273.745
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 279.033
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 277.184
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 278.558
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 277.606
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 278.888
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 277.704
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 277.787
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 277.395
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 279.674
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 278.766
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 278.108
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 281.782
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 280.751
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 280.225
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 282.572
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 285.821
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 287.923
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 291.908
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 291.919
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 293.127
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 294.268
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 296.748
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 298.499
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 299.317
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 302.11
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 302.161
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 301.877
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 304.099
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 305.919
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 305.994
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 307.267
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 309.858
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 307.815
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 308.342
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 309.137
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 309.241
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 308.093
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 308.137
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 308.193
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 307.47
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 308.867
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 307.713
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 309.011
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 309.552
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 308.419
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 310.107
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 311.479
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 311.501
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 311.197
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 311.33
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 312.326
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 313.207
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 312.306
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 312.191
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 311.991
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 311.976
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 312.582
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 312.715
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 314.056
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 313.677
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 313.576
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 313.484
+    },
+    {
+      "series_id": "CUURS12ASAF116",
+      "label": "Other food at home",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 313.975
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 1,
+      "date": "2017-01-01",
+      "value": 277.261
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 2,
+      "date": "2017-02-01",
+      "value": 276.661
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 3,
+      "date": "2017-03-01",
+      "value": 278.974
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 4,
+      "date": "2017-04-01",
+      "value": 279.083
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 5,
+      "date": "2017-05-01",
+      "value": 279.58
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 6,
+      "date": "2017-06-01",
+      "value": 279.633
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 7,
+      "date": "2017-07-01",
+      "value": 279.985
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 8,
+      "date": "2017-08-01",
+      "value": 280.119
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 9,
+      "date": "2017-09-01",
+      "value": 281.109
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 10,
+      "date": "2017-10-01",
+      "value": 281.995
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 11,
+      "date": "2017-11-01",
+      "value": 282.774
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2017,
+      "month": 12,
+      "date": "2017-12-01",
+      "value": 283.526
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 1,
+      "date": "2018-01-01",
+      "value": 284.097
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 2,
+      "date": "2018-02-01",
+      "value": 284.932
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 3,
+      "date": "2018-03-01",
+      "value": 285.765
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 4,
+      "date": "2018-04-01",
+      "value": 287.238
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 5,
+      "date": "2018-05-01",
+      "value": 289.241
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 6,
+      "date": "2018-06-01",
+      "value": 289.637
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 7,
+      "date": "2018-07-01",
+      "value": 289.604
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 8,
+      "date": "2018-08-01",
+      "value": 289.699
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 9,
+      "date": "2018-09-01",
+      "value": 290.532
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 10,
+      "date": "2018-10-01",
+      "value": 290.286
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 11,
+      "date": "2018-11-01",
+      "value": 290.423
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2018,
+      "month": 12,
+      "date": "2018-12-01",
+      "value": 291.13
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 1,
+      "date": "2019-01-01",
+      "value": 292.168
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 2,
+      "date": "2019-02-01",
+      "value": 293.474
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 3,
+      "date": "2019-03-01",
+      "value": 293.993
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 4,
+      "date": "2019-04-01",
+      "value": 294.575
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 5,
+      "date": "2019-05-01",
+      "value": 295.465
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 6,
+      "date": "2019-06-01",
+      "value": 296.138
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 7,
+      "date": "2019-07-01",
+      "value": 296.627
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 8,
+      "date": "2019-08-01",
+      "value": 298.723
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 9,
+      "date": "2019-09-01",
+      "value": 298.868
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 10,
+      "date": "2019-10-01",
+      "value": 298.679
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 11,
+      "date": "2019-11-01",
+      "value": 298.94
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2019,
+      "month": 12,
+      "date": "2019-12-01",
+      "value": 300.22
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 1,
+      "date": "2020-01-01",
+      "value": 299.909
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 2,
+      "date": "2020-02-01",
+      "value": 300.707
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 3,
+      "date": "2020-03-01",
+      "value": 300.566
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 4,
+      "date": "2020-04-01",
+      "value": 304.31
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 5,
+      "date": "2020-05-01",
+      "value": 306.452
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 6,
+      "date": "2020-06-01",
+      "value": 308.662
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 7,
+      "date": "2020-07-01",
+      "value": 306.433
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 8,
+      "date": "2020-08-01",
+      "value": 308.617
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 9,
+      "date": "2020-09-01",
+      "value": 309.803
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 10,
+      "date": "2020-10-01",
+      "value": 312.912
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 11,
+      "date": "2020-11-01",
+      "value": 312.624
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2020,
+      "month": 12,
+      "date": "2020-12-01",
+      "value": 313.944
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 1,
+      "date": "2021-01-01",
+      "value": 314.528
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 2,
+      "date": "2021-02-01",
+      "value": 315.561
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 3,
+      "date": "2021-03-01",
+      "value": 316.538
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 4,
+      "date": "2021-04-01",
+      "value": 317.349
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 5,
+      "date": "2021-05-01",
+      "value": 318.164
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 6,
+      "date": "2021-06-01",
+      "value": 320.23
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 7,
+      "date": "2021-07-01",
+      "value": 322.358
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 8,
+      "date": "2021-08-01",
+      "value": 324.261
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 9,
+      "date": "2021-09-01",
+      "value": 330.107
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 10,
+      "date": "2021-10-01",
+      "value": 332.368
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 11,
+      "date": "2021-11-01",
+      "value": 335.227
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2021,
+      "month": 12,
+      "date": "2021-12-01",
+      "value": 335.567
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 1,
+      "date": "2022-01-01",
+      "value": 337.654
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 2,
+      "date": "2022-02-01",
+      "value": 336.07
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 3,
+      "date": "2022-03-01",
+      "value": 335.373
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 4,
+      "date": "2022-04-01",
+      "value": 339.119
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 5,
+      "date": "2022-05-01",
+      "value": 341.316
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 6,
+      "date": "2022-06-01",
+      "value": 344.116
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 7,
+      "date": "2022-07-01",
+      "value": 346.473
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 8,
+      "date": "2022-08-01",
+      "value": 347.972
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 9,
+      "date": "2022-09-01",
+      "value": 349.964
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 10,
+      "date": "2022-10-01",
+      "value": 352.119
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 11,
+      "date": "2022-11-01",
+      "value": 355.506
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2022,
+      "month": 12,
+      "date": "2022-12-01",
+      "value": 356.802
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 1,
+      "date": "2023-01-01",
+      "value": 359.527
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 2,
+      "date": "2023-02-01",
+      "value": 359.184
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 3,
+      "date": "2023-03-01",
+      "value": 363.701
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 4,
+      "date": "2023-04-01",
+      "value": 365.015
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 5,
+      "date": "2023-05-01",
+      "value": 365.661
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 6,
+      "date": "2023-06-01",
+      "value": 368.988
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 7,
+      "date": "2023-07-01",
+      "value": 368.822
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 8,
+      "date": "2023-08-01",
+      "value": 370.322
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 9,
+      "date": "2023-09-01",
+      "value": 370.998
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 10,
+      "date": "2023-10-01",
+      "value": 372.364
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 11,
+      "date": "2023-11-01",
+      "value": 375.272
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2023,
+      "month": 12,
+      "date": "2023-12-01",
+      "value": 377.365
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 1,
+      "date": "2024-01-01",
+      "value": 378.685
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 2,
+      "date": "2024-02-01",
+      "value": 378.117
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 3,
+      "date": "2024-03-01",
+      "value": 378.338
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 4,
+      "date": "2024-04-01",
+      "value": 379.415
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 5,
+      "date": "2024-05-01",
+      "value": 381.079
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 6,
+      "date": "2024-06-01",
+      "value": 381.956
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 7,
+      "date": "2024-07-01",
+      "value": 381.679
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 8,
+      "date": "2024-08-01",
+      "value": 382.162
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 9,
+      "date": "2024-09-01",
+      "value": 382.765
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 10,
+      "date": "2024-10-01",
+      "value": 383.254
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 11,
+      "date": "2024-11-01",
+      "value": 385.128
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2024,
+      "month": 12,
+      "date": "2024-12-01",
+      "value": 387.583
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 1,
+      "date": "2025-01-01",
+      "value": 387.488
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 2,
+      "date": "2025-02-01",
+      "value": 388.878
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 3,
+      "date": "2025-03-01",
+      "value": 389.654
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 4,
+      "date": "2025-04-01",
+      "value": 390.866
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 5,
+      "date": "2025-05-01",
+      "value": 393.426
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 6,
+      "date": "2025-06-01",
+      "value": 393.863
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 7,
+      "date": "2025-07-01",
+      "value": 394.673
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 8,
+      "date": "2025-08-01",
+      "value": 396.751
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 9,
+      "date": "2025-09-01",
+      "value": 396.998
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 11,
+      "date": "2025-11-01",
+      "value": 398.728
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2025,
+      "month": 12,
+      "date": "2025-12-01",
+      "value": 399.692
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "value": 400.89
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2026,
+      "month": 2,
+      "date": "2026-02-01",
+      "value": 402.531
+    },
+    {
+      "series_id": "CUURS12ASEFV",
+      "label": "Food away from home",
+      "year": 2026,
+      "month": 3,
+      "date": "2026-03-01",
+      "value": 402.854
+    }
+  ]
+}

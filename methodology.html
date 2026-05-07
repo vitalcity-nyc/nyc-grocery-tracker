@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology &mdash; New York City supermarket map</title>
+<style>
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-size: 16.5px;
+  }
+  .kicker {
+    font-family: -apple-system, sans-serif;
+    font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: #c23616; font-weight: 600; margin-bottom: 6px;
+  }
+  h1 { font-size: 30px; margin: 0 0 24px; line-height: 1.2; }
+  h2 { font-size: 20px; margin: 32px 0 8px; font-family: -apple-system, sans-serif; }
+  a { color: #c23616; }
+  code {
+    font-family: ui-monospace, monospace;
+    background: #f4f4f4; padding: 1px 5px; border-radius: 3px;
+    font-size: 0.92em;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  table { border-collapse: collapse; margin: 12px 0; font-family: -apple-system, sans-serif; font-size: 14px; }
+  th, td { text-align: left; padding: 6px 14px 6px 0; border-bottom: 1px solid #e5e5e5; }
+  th { background: none; font-weight: 600; }
+  .back { font-family: -apple-system, sans-serif; font-size: 14px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back">&larr; Back to map</a>
+<div class="kicker" style="margin-top: 18px;">PUBLIC SUPERMARKET ACCOUNTABILITY</div>
+<h1>Methodology and sources</h1>
+
+<h2>What this map shows</h2>
+<p>Every retail food store licensed to operate in New York City's five counties (Manhattan, Bronx, Brooklyn, Queens, Staten Island), plotted at the address each operator filed with the State. Stores are sized and colored by reported square footage so a viewer can see at a glance where full-service supermarkets exist and where the only options are corner stores or smaller specialty shops.</p>
+
+<h2>Source data</h2>
+<table>
+  <tr><th>Dataset</th><th>Provider</th><th>Used for</th></tr>
+  <tr><td>Retail Food Stores (resource <code>9a8c-vfzj</code>)</td><td>NY State Department of Agriculture and Markets, via <a href="https://data.ny.gov/Economic-Development/Retail-Food-Stores/9a8c-vfzj">data.ny.gov</a></td><td>Store name, address, latitude/longitude, square footage, establishment type</td></tr>
+  <tr><td>2020 Decennial Census borough totals</td><td>U.S. Census Bureau</td><td>Computing supermarkets per 100,000 residents</td></tr>
+  <tr><td>La Marqueta site location</td><td>NYC Mayor's Office, April 2026 announcement</td><td>Marker for the first announced public supermarket site</td></tr>
+</table>
+
+<h2>How stores were classified</h2>
+<p>The state's <code>Retail Food Stores</code> dataset reports a <code>square_footage</code> field for stores that filed it. Stores were bucketed using thresholds widely used in retail food research:</p>
+<ul>
+  <li><strong>Large supermarket</strong>: 10,000 square feet or more</li>
+  <li><strong>Standard supermarket</strong>: 5,000 to 9,999 square feet</li>
+  <li><strong>Small supermarket or grocer</strong>: 2,500 to 4,999 square feet</li>
+  <li><strong>Corner store or specialty</strong>: under 2,500 square feet</li>
+  <li><strong>Size unknown</strong>: square footage not reported</li>
+</ul>
+<p>The state's <code>estab_type</code> code (A, AC, ABC, etc.) classifies what categories of food a license covers (retail food, bakery, food manufacturing, and so on). It is shown in the popup but not used to assign size, because in practice most NYC stores carry the <code>AC</code> code and the size of the physical store is more meaningful than the license bundle.</p>
+
+<h2>What the map does not show</h2>
+<ul>
+  <li><strong>Prices.</strong> This is not a price tracker. Building a reliable, public NYC grocery price tracker is much harder than it sounds: in-store shelf prices are not published anywhere, and Instacart and other delivery platforms add a markup of roughly 5-15 percent that varies by retailer and by week. We considered building one and decided it would be misleading without a sustained budget for in-store collection.</li>
+  <li><strong>Quality of food sold.</strong> A 9,000-square-foot store stocking mostly packaged goods is not the same as one with a full produce, dairy, and meat counter. The state license data does not record this.</li>
+  <li><strong>Hours, parking, accessibility, SNAP acceptance.</strong> These matter for real-world food access and are not in this dataset.</li>
+  <li><strong>Stores that have closed since the file was last updated.</strong> The dataset reflects active licenses on file; closures take time to propagate.</li>
+</ul>
+
+<h2>Known limitations</h2>
+<ul>
+  <li>About 23 percent of NYC stores in the file have no reported square footage. Those stores are toggleable on the map but excluded by default from the supermarket counts. They are likely a mix of supermarkets and smaller stores; treating them as either would bias the picture.</li>
+  <li>Address points are based on the operator-filed address and are not independently verified against street-level imagery.</li>
+  <li>The 5,000-square-foot threshold for &quot;full supermarket&quot; is a convention, not a legal definition. Some stores between 2,500 and 5,000 square feet are full-service in practice; some chain stores above 10,000 square feet are mostly prepared-food and convenience.</li>
+  <li>Population denominators are 2020 Census totals. Borough population has shifted since then, but not enough to materially change the per-100,000 ratios.</li>
+  <li>Four of the five planned public supermarket sites are not yet announced. The map will be updated when each site is identified.</li>
+</ul>
+
+<h2>How to reproduce this</h2>
+<p>The collector script is in the project repository under <code>collectors/nyc_food_stores.py</code>. It pulls the full file from the state's open data API, filters to the five NYC counties and stores marked <code>operation_type=Store</code>, drops rows without a georeference, applies the size classification, and writes a GeoJSON file plus a flat CSV. Anyone can re-run it; no API key is required.</p>
+
+<h2>Why this exists</h2>
+<p>In April 2026 Mayor Mamdani announced that New York City will open one publicly owned supermarket in each borough, beginning with a 9,000-square-foot store at La Marqueta in East Harlem. The stated goal is to lower grocery prices in underserved neighborhoods by removing the rent and capital costs that strain private operators. Whether the chosen sites are in fact in supermarket-poor areas, and whether prices in those neighborhoods actually move once the stores open, are questions that require a public baseline of where supermarkets are today. This map is that baseline. It will be re-pulled monthly so the historical record stays current.</p>
+
+<h2>Contact</h2>
+<p>Questions or corrections: open an issue on the project repository, or email the project maintainer.</p>
+
+<a href="index.html" class="back">&larr; Back to map</a>
+</body>
+</html>

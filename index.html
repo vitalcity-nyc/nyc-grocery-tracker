@@ -151,6 +151,74 @@
     font-size: 14px;
     z-index: 1000;
   }
+  .search-box {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 320px;
+    max-width: calc(100% - 24px);
+    z-index: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    outline: none;
+  }
+  .search-box input:focus {
+    border-color: #c23616;
+    box-shadow: 0 2px 12px rgba(194,54,22,0.25);
+  }
+  .search-results {
+    margin-top: 4px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    max-height: 280px;
+    overflow-y: auto;
+    display: none;
+  }
+  .search-results.open { display: block; }
+  .search-result {
+    padding: 8px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .search-result:last-child { border-bottom: none; }
+  .search-result:hover, .search-result.active {
+    background: #fff5f0;
+  }
+  .search-result .label { font-weight: 500; }
+  .search-result .meta { color: #888; font-size: 11.5px; margin-top: 1px; }
+  .nearest-stores { margin-top: 8px; }
+  .nearest-store {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13px;
+  }
+  .nearest-store:last-child { border-bottom: none; }
+  .nearest-store .name { font-weight: 500; }
+  .nearest-store .meta { color: var(--ink-faint); font-size: 12px; }
+  .clear-search {
+    background: none; border: none; color: var(--accent);
+    font-size: 12px; padding: 0; margin-top: 6px;
+    cursor: pointer; text-decoration: underline;
+    font-family: inherit;
+  }
+  .search-pin {
+    background: #c23616;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #c23616, 0 2px 6px rgba(0,0,0,0.3);
+  }
 </style>
 </head>
 <body>
@@ -195,6 +263,13 @@
     </label>
     <p class="legend-note">Roughly 23 percent of stores have no reported square footage. They are off by default.</p>
 
+    <div id="nearest-panel" style="display:none;">
+      <h2>Nearest full supermarkets</h2>
+      <div id="searched-address" style="font-size:13px; margin-bottom:8px; color:var(--ink-light);"></div>
+      <div id="nearest-stores" class="nearest-stores"></div>
+      <button class="clear-search" id="clear-search">Clear search</button>
+    </div>
+
     <h2>Full supermarkets per 100,000 residents</h2>
     <p style="font-size:12px; color:var(--ink-faint); margin:0 0 6px;">5,000+ sqft only. Population from 2020 Census.</p>
     <table class="stats" id="density-table"></table>
@@ -213,6 +288,10 @@
 
   <div style="position: relative;">
     <div id="loading" class="loading">Loading 11,000+ stores&hellip;</div>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search a New York City address&hellip;" autocomplete="off">
+      <div class="search-results" id="search-results"></div>
+    </div>
     <div id="map"></div>
   </div>
 </div>
@@ -350,6 +429,182 @@ fetch('data/processed/nyc_food_stores.geojson')
     document.getElementById('loading').textContent = 'Failed to load store data: ' + err.message;
     console.error(err);
   });
+
+// ---------- Address search (NYC Planning GeoSearch) ----------
+const searchInput = document.getElementById('search-input');
+const searchResults = document.getElementById('search-results');
+const nearestPanel = document.getElementById('nearest-panel');
+const nearestStoresEl = document.getElementById('nearest-stores');
+const searchedAddressEl = document.getElementById('searched-address');
+const clearBtn = document.getElementById('clear-search');
+
+let searchMarker = null;
+let nearestLines = [];
+let activeIndex = -1;
+let currentResults = [];
+let debounceTimer = null;
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim();
+  clearTimeout(debounceTimer);
+  if (q.length < 3) {
+    searchResults.classList.remove('open');
+    searchResults.innerHTML = '';
+    return;
+  }
+  debounceTimer = setTimeout(() => runAutocomplete(q), 220);
+});
+
+searchInput.addEventListener('keydown', (e) => {
+  if (!searchResults.classList.contains('open')) return;
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
+    updateActiveResult();
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    activeIndex = Math.max(activeIndex - 1, -1);
+    updateActiveResult();
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (activeIndex >= 0 && currentResults[activeIndex]) {
+      selectResult(currentResults[activeIndex]);
+    } else if (currentResults[0]) {
+      selectResult(currentResults[0]);
+    }
+  } else if (e.key === 'Escape') {
+    searchResults.classList.remove('open');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-box')) {
+    searchResults.classList.remove('open');
+  }
+});
+
+clearBtn.addEventListener('click', clearSearch);
+
+function runAutocomplete(q) {
+  fetch(`https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(q)}&size=8`)
+    .then(r => r.json())
+    .then(d => {
+      currentResults = (d.features || []).filter(f => f.geometry && f.geometry.type === 'Point');
+      activeIndex = -1;
+      if (!currentResults.length) {
+        searchResults.innerHTML = '<div class="search-result"><div class="meta">No matches</div></div>';
+        searchResults.classList.add('open');
+        return;
+      }
+      searchResults.innerHTML = currentResults.map((f, i) => {
+        const p = f.properties || {};
+        const label = p.label || p.name || '';
+        const borough = p.borough || p.locality || '';
+        return `<div class="search-result" data-idx="${i}">
+          <div class="label">${escapeHtml(label)}</div>
+          ${borough ? `<div class="meta">${escapeHtml(borough)}</div>` : ''}
+        </div>`;
+      }).join('');
+      searchResults.classList.add('open');
+      searchResults.querySelectorAll('.search-result').forEach(el => {
+        el.addEventListener('click', () => {
+          const idx = parseInt(el.getAttribute('data-idx'), 10);
+          selectResult(currentResults[idx]);
+        });
+      });
+    })
+    .catch(err => console.error('GeoSearch error', err));
+}
+
+function updateActiveResult() {
+  searchResults.querySelectorAll('.search-result').forEach((el, i) => {
+    el.classList.toggle('active', i === activeIndex);
+  });
+}
+
+function selectResult(feature) {
+  const [lon, lat] = feature.geometry.coordinates;
+  const props = feature.properties || {};
+  const label = props.label || '';
+  searchInput.value = label;
+  searchResults.classList.remove('open');
+
+  // Drop or move search marker
+  if (searchMarker) map.removeLayer(searchMarker);
+  searchMarker = L.marker([lat, lon], {
+    icon: L.divIcon({
+      className: '',
+      html: '<div class="search-pin"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+    }),
+    zIndexOffset: 800,
+  }).addTo(map);
+  searchMarker.bindPopup(`<div class="name">${escapeHtml(label)}</div>`);
+
+  map.flyTo([lat, lon], 15, { duration: 0.7 });
+
+  showNearest(lat, lon, label);
+}
+
+function haversineMeters(lat1, lon1, lat2, lon2) {
+  const R = 6371000;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+function showNearest(lat, lon, label) {
+  if (!allFeatures.length) return;
+  // Filter to full supermarkets (Standard + Large)
+  const candidates = allFeatures.filter(f => {
+    const c = f.properties.size_class;
+    return c === 'Large supermarket' || c === 'Standard supermarket';
+  });
+  const scored = candidates.map(f => {
+    const [flon, flat] = f.geometry.coordinates;
+    return { feature: f, dist: haversineMeters(lat, lon, flat, flon) };
+  }).sort((a, b) => a.dist - b.dist).slice(0, 5);
+
+  searchedAddressEl.textContent = label;
+  nearestStoresEl.innerHTML = scored.map(s => {
+    const p = s.feature.properties;
+    const km = s.dist / 1000;
+    const distStr = km < 1 ? `${Math.round(s.dist)} m` : `${km.toFixed(2)} km`;
+    const sqftStr = p.sqft ? `${p.sqft.toLocaleString()} sqft` : '';
+    return `<div class="nearest-store">
+      <div class="name">${escapeHtml(p.name)}</div>
+      <div class="meta">${escapeHtml(p.address)}, ${escapeHtml(p.borough)} &middot; ${distStr}${sqftStr ? ' &middot; ' + sqftStr : ''}</div>
+    </div>`;
+  }).join('');
+  nearestPanel.style.display = 'block';
+
+  // Draw connecting lines to top 3
+  nearestLines.forEach(l => map.removeLayer(l));
+  nearestLines = [];
+  for (let i = 0; i < Math.min(3, scored.length); i++) {
+    const [flon, flat] = scored[i].feature.geometry.coordinates;
+    const line = L.polyline([[lat, lon], [flat, flon]], {
+      color: '#c23616',
+      weight: 1.5,
+      opacity: 0.55,
+      dashArray: '4 4',
+    }).addTo(map);
+    nearestLines.push(line);
+  }
+}
+
+function clearSearch() {
+  searchInput.value = '';
+  if (searchMarker) { map.removeLayer(searchMarker); searchMarker = null; }
+  nearestLines.forEach(l => map.removeLayer(l));
+  nearestLines = [];
+  nearestPanel.style.display = 'none';
+  searchResults.classList.remove('open');
+  searchResults.innerHTML = '';
+}
 
 function escapeHtml(s) {
   if (s == null) return '';

@@ -44,7 +44,69 @@ COUNTY_TO_BOROUGH = {
 }
 
 
-def classify(sqft):
+import re
+
+# Names matching these patterns are licensed food retailers but NOT
+# what readers mean by "supermarket". Excluding by name is imperfect but
+# beats trusting square footage alone, which would count Walgreens,
+# Dollar Tree, Restaurant Depot, breweries, and 7-Elevens as supermarkets.
+NON_SUPERMARKET_PATTERNS = [
+    # Pharmacies / drug stores
+    r"\bWALGREEN", r"\bRITE\s*AID\b", r"\bCVS\b", r"\bDUANE\s*READE\b",
+    r"\bPHARMAC", r"\bDRUG\s*STORE\b", r"\bDRUGS\b",
+    # Dollar / variety / discount
+    r"DOLLAR\s*TREE", r"DOLLAR\s*GENERAL", r"FAMILY\s*DOLLAR",
+    r"99\s*CENT", r"99CENT", r"\bDOLLAR\s*PLUS\b",
+    # Convenience / gas
+    r"7-?\s*ELEVEN", r"\bWAWA\b", r"\bAMPM\b", r"\bQUIK\b", r"\bCIRCLE\s*K\b",
+    r"\bEXXON\b", r"\bSHELL\b", r"\bMOBIL\b", r"\bCITGO\b", r"\bGULF\b",
+    r"\bSUNOCO\b", r"\bBP\s+GAS\b", r"\bSPEEDWAY\b",
+    # Alcohol-only retailers and producers
+    r"\bBREW(ING|ERY|HOUSE|PUB)\b", r"\bBREWERS\b", r"\bDISTILL",
+    r"\bWINERY\b", r"\bCIDER(Y)?\b", r"\bMEADERY\b",
+    r"\bLIQUOR\b", r"\bSPIRITS\b", r"WINE\s*&\s*SPIRITS",
+    r"WINES\s*&\s*LIQUORS?", r"\bTAPROOM\b", r"\bTAP\s*ROOM\b",
+    # Bars / restaurants / cafes / fast-food
+    r"\bTAVERN\b", r"\bPUB\b", r"\bCOCKTAIL", r"\bBAR\s*&\s*GRILL\b",
+    r"\bRESTAURANT\b", r"\bBISTRO\b", r"\bEATERY\b", r"\bDINER\b",
+    r"\bGRILL\b", r"\bBBQ\b", r"\bKITCHEN\b", r"\bSTEAKHOUSE\b",
+    r"\bPIZZ", r"\bSUSHI\b", r"\bRAMEN\b", r"\bNOODLE\b",
+    r"\bTACO\b", r"\bBURGER\b", r"\bKEBAB\b", r"\bDONUT\b", r"DUNKIN",
+    r"STARBUCKS", r"\bCOFFEE\b", r"\bCAFE\b", r"\bCAF\b",
+    # Bakeries (not full-service grocery in this dataset)
+    r"\bBAKERY\b", r"\bBAKERIE\b", r"\bBAKE\s*SHOP\b", r"\bPATISSERIE\b",
+    # Tobacco / vape
+    r"\bTOBACCO\b", r"\bCIGAR\b", r"\bVAPE\b", r"\bSMOKE\s*SHOP\b",
+    # Religious / institutional
+    r"^CHURCH\b", r"\bMOSQUE\b", r"\bSYNAGOGUE\b", r"\bTEMPLE\b",
+    r"\bUNIVERSITY\b", r"\bCOLLEGE\b", r"\bACADEMY\b",
+    r"\bHOSPITAL\b", r"\bMEDICAL\s*CENTER\b", r"\bCLINIC\b",
+    r"\bHOTEL\b", r"\bMOTEL\b", r"\bINN\b\s",
+    # Wholesale / non-retail
+    r"RESTAURANT\s*DEPOT", r"\bCOMMISSARY\b", r"\bWAREHOUSE\b",
+    r"\bWHOLESALE\b", r"\bDISTRIBUT", r"\bIMPORT\b",
+    # Other obvious non-grocery
+    r"\bICE\s*CREAM\b", r"\bGELATO\b", r"\bFROZEN\s*YOGURT\b",
+    r"\bCHOCOLATE\b", r"\bCANDY\b", r"\bSWEETS\b",
+    r"\bJUICE\s*BAR\b", r"\bSMOOTHIE\b",
+    r"\bFLORIST\b", r"\bFLOWER\b",
+]
+NON_SUPERMARKET_RE = re.compile("|".join(NON_SUPERMARKET_PATTERNS), re.IGNORECASE)
+
+
+def is_likely_supermarket(name: str, sqft):
+    """Best-effort classification: is this a name that a reader would consider
+    a grocery store / supermarket? False if name matches the denylist."""
+    if not name:
+        return False
+    if NON_SUPERMARKET_RE.search(name):
+        return False
+    return True
+
+
+def classify(sqft, is_supermarket: bool):
+    if not is_supermarket:
+        return "Other licensed food retailer"
     if sqft is None:
         return "Size unknown"
     if sqft >= 10000:
@@ -100,7 +162,9 @@ def main() -> int:
                 sqft = int(float(sqft_raw))
             except (ValueError, TypeError):
                 sqft = None
-        size_class = classify(sqft)
+        name_for_filter = (r.get("dba_name") or r.get("entity_name") or "").upper()
+        is_supermarket = is_likely_supermarket(name_for_filter, sqft)
+        size_class = classify(sqft, is_supermarket)
         county = (r.get("county") or "").upper()
         borough = COUNTY_TO_BOROUGH.get(county, "")
         addr_parts = [
@@ -119,6 +183,7 @@ def main() -> int:
             "borough": borough,
             "sqft": sqft,
             "size_class": size_class,
+            "is_supermarket": is_supermarket,
         }
         features.append({
             "type": "Feature",
@@ -146,7 +211,7 @@ def main() -> int:
     with csv_path.open("w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=[
             "license", "name", "entity", "estab_type", "address", "city",
-            "zip", "borough", "sqft", "size_class", "lon", "lat",
+            "zip", "borough", "sqft", "size_class", "is_supermarket", "lon", "lat",
         ])
         writer.writeheader()
         writer.writerows(flat_rows)

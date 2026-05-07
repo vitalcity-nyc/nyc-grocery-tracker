@@ -21,6 +21,12 @@
     --corner: #b8b8b8;
     --unknown: #d6d6d6;
     --site: #c23616;
+  --choro-0: #f5f5f5;
+  --choro-1: #ffe5d8;
+  --choro-2: #f8b39c;
+  --choro-3: #e87555;
+  --choro-4: #b94322;
+  --choro-na: #ececec;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; height: 100%; }
@@ -225,43 +231,74 @@
 <header>
   <div class="kicker">PUBLIC SUPERMARKET ACCOUNTABILITY</div>
   <h1>Where are New York City's supermarkets?</h1>
-  <p>Every licensed retail food store in the five boroughs, sized by reported square footage. Mayor Mamdani has said the city will open one public supermarket in each borough; the first is planned for La Marqueta in East Harlem. This map is the baseline for asking which neighborhoods have a real supermarket today and which do not. <a href="methodology.html" class="footer-link" style="margin-top:0;">Methodology &amp; sources &rarr;</a></p>
+  <p>Licensed retail food stores in the five boroughs, sized by reported square footage. Mayor Mamdani has said the city will open one public supermarket in each borough; the first is planned for La Marqueta in East Harlem. This map is a baseline for asking which neighborhoods have a real supermarket today and which do not. The underlying state license file does not distinguish supermarkets from pharmacies, dollar stores, breweries, or bakeries; this map applies a name-based filter, but it is imperfect. Data current as of September 2025; new openings (e.g., Lidl at 120 5th Ave, Brooklyn) are missing. <a href="methodology.html" class="footer-link" style="margin-top:0;">Methodology &amp; sources &rarr;</a></p>
 </header>
 
 <div class="layout">
   <aside class="panel">
-    <h2>Store size</h2>
+    <h2>View</h2>
     <label class="toggle">
-      <input type="checkbox" data-class="Large supermarket" checked>
-      <span class="swatch" style="background: var(--large)"></span>
-      <span class="label-text">Large supermarket (10,000+ sqft)</span>
-      <span class="count" data-count="Large supermarket"></span>
+      <input type="radio" name="view" value="points" checked>
+      <span class="label-text">Individual stores</span>
     </label>
     <label class="toggle">
-      <input type="checkbox" data-class="Standard supermarket" checked>
-      <span class="swatch" style="background: var(--standard)"></span>
-      <span class="label-text">Standard (5,000-9,999)</span>
-      <span class="count" data-count="Standard supermarket"></span>
+      <input type="radio" name="view" value="density">
+      <span class="label-text">Supermarkets per 10,000 residents (ZIP)</span>
     </label>
-    <label class="toggle">
-      <input type="checkbox" data-class="Small supermarket or grocer" checked>
-      <span class="swatch" style="background: var(--small)"></span>
-      <span class="label-text">Small grocer (2,500-4,999)</span>
-      <span class="count" data-count="Small supermarket or grocer"></span>
-    </label>
-    <label class="toggle">
-      <input type="checkbox" data-class="Corner store or specialty">
-      <span class="swatch" style="background: var(--corner)"></span>
-      <span class="label-text">Corner / specialty (under 2,500)</span>
-      <span class="count" data-count="Corner store or specialty"></span>
-    </label>
-    <label class="toggle">
-      <input type="checkbox" data-class="Size unknown">
-      <span class="swatch" style="background: var(--unknown)"></span>
-      <span class="label-text">Size not reported</span>
-      <span class="count" data-count="Size unknown"></span>
-    </label>
-    <p class="legend-note">Roughly 23 percent of stores have no reported square footage. They are off by default.</p>
+
+    <div id="points-controls">
+      <h2>Store size (likely supermarket)</h2>
+      <label class="toggle">
+        <input type="checkbox" data-class="Large supermarket" checked>
+        <span class="swatch" style="background: var(--large)"></span>
+        <span class="label-text">Large (10,000+ sqft)</span>
+        <span class="count" data-count="Large supermarket"></span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" data-class="Standard supermarket" checked>
+        <span class="swatch" style="background: var(--standard)"></span>
+        <span class="label-text">Standard (5,000-9,999)</span>
+        <span class="count" data-count="Standard supermarket"></span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" data-class="Small supermarket or grocer" checked>
+        <span class="swatch" style="background: var(--small)"></span>
+        <span class="label-text">Small grocer (2,500-4,999)</span>
+        <span class="count" data-count="Small supermarket or grocer"></span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" data-class="Corner store or specialty">
+        <span class="swatch" style="background: var(--corner)"></span>
+        <span class="label-text">Corner / specialty (under 2,500)</span>
+        <span class="count" data-count="Corner store or specialty"></span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" data-class="Size unknown">
+        <span class="swatch" style="background: var(--unknown)"></span>
+        <span class="label-text">Size not reported</span>
+        <span class="count" data-count="Size unknown"></span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" data-class="Other licensed food retailer">
+        <span class="swatch" style="background: #d4a26a"></span>
+        <span class="label-text">Pharmacy, dollar store, brewery, etc.</span>
+        <span class="count" data-count="Other licensed food retailer"></span>
+      </label>
+      <p class="legend-note">"Likely supermarket" excludes names matching pharmacy / dollar / brewery / restaurant / bakery patterns. Imperfect but better than trusting square footage alone.</p>
+    </div>
+
+    <div id="density-controls" style="display:none;">
+      <h2>Density legend</h2>
+      <div style="display:grid; grid-template-columns: 16px 1fr; gap: 6px 8px; align-items: center; font-size: 12px;">
+        <span class="swatch" style="background: var(--choro-0); width:14px; height:14px;"></span><span>0 (no supermarket)</span>
+        <span class="swatch" style="background: var(--choro-1); width:14px; height:14px;"></span><span>under 0.5 per 10k</span>
+        <span class="swatch" style="background: var(--choro-2); width:14px; height:14px;"></span><span>0.5 to 1.0</span>
+        <span class="swatch" style="background: var(--choro-3); width:14px; height:14px;"></span><span>1.0 to 2.0</span>
+        <span class="swatch" style="background: var(--choro-4); width:14px; height:14px;"></span><span>2.0+ per 10k</span>
+        <span class="swatch" style="background: var(--choro-na); width:14px; height:14px;"></span><span>population estimate too small</span>
+      </div>
+      <p class="legend-note">ZIP polygons are NYC Modified ZCTAs from NYC DOHMH; population estimates are theirs. Lower density = fewer full supermarkets per resident.</p>
+    </div>
 
     <div id="nearest-panel" style="display:none;">
       <h2>Nearest full supermarkets</h2>
@@ -271,7 +308,7 @@
     </div>
 
     <h2>Full supermarkets per 100,000 residents</h2>
-    <p style="font-size:12px; color:var(--ink-faint); margin:0 0 6px;">5,000+ sqft only. Population from 2020 Census.</p>
+    <p style="font-size:12px; color:var(--ink-faint); margin:0 0 6px;">5,000+ sqft, after name filter. 2020 Census borough pop.</p>
     <table class="stats" id="density-table"></table>
 
     <h2>Planned public supermarket sites</h2>
@@ -303,6 +340,7 @@ const SIZE_COLORS = {
   "Small supermarket or grocer":"#7eb8d9",
   "Corner store or specialty":  "#b8b8b8",
   "Size unknown":               "#d6d6d6",
+  "Other licensed food retailer": "#d4a26a",
 };
 const SIZE_RADII = {
   "Large supermarket":          7,
@@ -310,6 +348,7 @@ const SIZE_RADII = {
   "Small supermarket or grocer":4.5,
   "Corner store or specialty":  3,
   "Size unknown":               3,
+  "Other licensed food retailer": 3.5,
 };
 // 2020 Census borough population
 const BOROUGH_POP = {
@@ -406,14 +445,15 @@ fetch('data/processed/nyc_food_stores.geojson')
       });
     });
 
-    // Compute density table
+    // Compute density table — full supermarkets only, after name filter
     const boroughCounts = {};
     for (const f of allFeatures) {
       const b = f.properties.borough;
       const sqft = f.properties.sqft;
+      const isSuper = f.properties.is_supermarket;
       if (!b) continue;
       if (!boroughCounts[b]) boroughCounts[b] = 0;
-      if (sqft && sqft >= 5000) boroughCounts[b] += 1;
+      if (isSuper && sqft && sqft >= 5000) boroughCounts[b] += 1;
     }
     const rows = Object.entries(boroughCounts).map(([b, n]) => {
       const pop = BOROUGH_POP[b];
@@ -429,6 +469,78 @@ fetch('data/processed/nyc_food_stores.geojson')
     document.getElementById('loading').textContent = 'Failed to load store data: ' + err.message;
     console.error(err);
   });
+
+// ---------- Density choropleth layer ----------
+let densityLayer = null;
+
+function choroColor(per10k, pop) {
+  if (pop < 1000) return 'var(--choro-na)';
+  if (per10k === null || per10k === undefined) return 'var(--choro-na)';
+  if (per10k === 0) return '#f5f5f5';
+  if (per10k < 0.5) return '#ffe5d8';
+  if (per10k < 1.0) return '#f8b39c';
+  if (per10k < 2.0) return '#e87555';
+  return '#b94322';
+}
+
+function loadDensityLayer() {
+  if (densityLayer) return Promise.resolve(densityLayer);
+  return fetch('data/processed/nyc_zip_density.geojson')
+    .then(r => r.json())
+    .then(geo => {
+      densityLayer = L.geoJSON(geo, {
+        style: (feature) => {
+          const p = feature.properties;
+          return {
+            color: '#666',
+            weight: 0.5,
+            opacity: 0.7,
+            fillColor: choroColor(p.supermarkets_per_10k, p.pop_est),
+            fillOpacity: 0.62,
+          };
+        },
+        onEachFeature: (feature, layer) => {
+          const p = feature.properties;
+          const per = p.supermarkets_per_10k !== null ? p.supermarkets_per_10k.toFixed(2) : 'n/a';
+          layer.bindPopup(
+            `<div class="name">ZIP ${p.modzcta}</div>` +
+            `<div class="meta">Population: ${p.pop_est.toLocaleString()}</div>` +
+            `<div class="meta">Full supermarkets: ${p.supermarket_count}</div>` +
+            `<div class="meta"><strong>${per}</strong> per 10k residents</div>`
+          );
+          layer.on({
+            mouseover: (e) => e.target.setStyle({ weight: 2, color: '#222' }),
+            mouseout: (e) => densityLayer.resetStyle(e.target),
+          });
+        },
+      });
+      return densityLayer;
+    });
+}
+
+function setView(mode) {
+  if (mode === 'density') {
+    // Hide all point layers
+    Object.values(layers).forEach(l => map.removeLayer(l));
+    document.getElementById('points-controls').style.display = 'none';
+    document.getElementById('density-controls').style.display = '';
+    loadDensityLayer().then(l => l.addTo(map));
+  } else {
+    if (densityLayer) map.removeLayer(densityLayer);
+    document.getElementById('points-controls').style.display = '';
+    document.getElementById('density-controls').style.display = 'none';
+    // Re-add the checked point layers
+    document.querySelectorAll('input[data-class]').forEach(input => {
+      if (input.checked && layers[input.getAttribute('data-class')]) {
+        layers[input.getAttribute('data-class')].addTo(map);
+      }
+    });
+  }
+}
+
+document.querySelectorAll('input[name="view"]').forEach(r => {
+  r.addEventListener('change', (e) => setView(e.target.value));
+});
 
 // ---------- Address search (NYC Planning GeoSearch) ----------
 const searchInput = document.getElementById('search-input');
@@ -560,8 +672,8 @@ function showNearest(lat, lon, label) {
   if (!allFeatures.length) return;
   // Filter to full supermarkets (Standard + Large)
   const candidates = allFeatures.filter(f => {
-    const c = f.properties.size_class;
-    return c === 'Large supermarket' || c === 'Standard supermarket';
+    const p = f.properties;
+    return p.is_supermarket && p.sqft && p.sqft >= 5000;
   });
   const scored = candidates.map(f => {
     const [flon, flat] = f.geometry.coordinates;

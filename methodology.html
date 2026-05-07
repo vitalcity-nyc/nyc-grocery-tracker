@@ -52,7 +52,20 @@
 </table>
 
 <h2>How stores were classified</h2>
-<p>The state's <code>Retail Food Stores</code> dataset reports a <code>square_footage</code> field for stores that filed it. Stores were bucketed using thresholds widely used in retail food research:</p>
+<p>The NY State retail food store license is a single license that covers any retailer selling packaged food: a corner bodega, a Whole Foods, a brewery taproom, a Walgreens, and a wholesale Restaurant Depot all hold the same license. Square footage alone is therefore not enough to identify supermarkets &mdash; a 20,000-square-foot Walgreens is not a grocery store, and a 7,000-square-foot Threes Brewing is not either.</p>
+<p>To approximate &quot;supermarket,&quot; we apply a name-keyword filter that excludes obvious non-grocery establishments. The filter excludes any store whose <code>dba_name</code> matches patterns like:</p>
+<ul>
+  <li>Pharmacy / drug store: <code>WALGREENS</code>, <code>RITE AID</code>, <code>CVS</code>, <code>DUANE READE</code>, <code>PHARMACY</code></li>
+  <li>Dollar / discount: <code>DOLLAR TREE</code>, <code>DOLLAR GENERAL</code>, <code>FAMILY DOLLAR</code>, <code>99 CENT</code></li>
+  <li>Convenience / gas: <code>7-ELEVEN</code>, <code>EXXON</code>, <code>SHELL</code>, <code>MOBIL</code></li>
+  <li>Alcohol: <code>BREWING</code>, <code>BREWERY</code>, <code>DISTILLERY</code>, <code>WINERY</code>, <code>LIQUOR</code>, <code>SPIRITS</code></li>
+  <li>Restaurant / cafe: <code>RESTAURANT</code>, <code>BISTRO</code>, <code>DINER</code>, <code>PIZZA</code>, <code>SUSHI</code>, <code>CAFE</code>, <code>STARBUCKS</code>, <code>DUNKIN</code></li>
+  <li>Bakery: <code>BAKERY</code>, <code>PATISSERIE</code></li>
+  <li>Tobacco: <code>TOBACCO</code>, <code>CIGAR</code>, <code>VAPE</code></li>
+  <li>Religious / institutional / wholesale: <code>CHURCH</code>, <code>SCHOOL</code>, <code>HOSPITAL</code>, <code>RESTAURANT DEPOT</code>, <code>WAREHOUSE</code></li>
+</ul>
+<p>The complete pattern list is in <code>collectors/nyc_food_stores.py</code>. Stores that match are reclassified as &quot;Other licensed food retailer.&quot; The filter is imperfect: it can over-exclude (a small chain using &quot;Cafe&quot; in its name) and under-exclude (an obscure non-grocery brand with no keyword match). It is published in the source code and is straightforward to audit and adjust.</p>
+<p>Stores that pass the name filter are bucketed by reported square footage:</p>
 <ul>
   <li><strong>Large supermarket</strong>: 10,000 square feet or more</li>
   <li><strong>Standard supermarket</strong>: 5,000 to 9,999 square feet</li>
@@ -60,7 +73,10 @@
   <li><strong>Corner store or specialty</strong>: under 2,500 square feet</li>
   <li><strong>Size unknown</strong>: square footage not reported</li>
 </ul>
-<p>The state's <code>estab_type</code> code (A, AC, ABC, etc.) classifies what categories of food a license covers (retail food, bakery, food manufacturing, and so on). It is shown in the popup but not used to assign size, because in practice most NYC stores carry the <code>AC</code> code and the size of the physical store is more meaningful than the license bundle.</p>
+<p>Throughout the map, &quot;full supermarket&quot; means a store that passes the name filter and is at least 5,000 square feet.</p>
+
+<h2>ZIP-level density layer</h2>
+<p>The density view renders a choropleth across NYC's 178 Modified ZIP Code Tabulation Areas (MODZCTAs) published by the NYC Department of Health and Mental Hygiene. Each polygon is colored by full supermarkets per 10,000 residents, using the population estimates that come with the MODZCTA file. Stores are matched to a MODZCTA via the operator-filed ZIP. About 50 stores have a ZIP that does not map to any MODZCTA and are dropped from the density view; they remain in the points view.</p>
 
 <h2>What the map does not show</h2>
 <ul>
@@ -72,10 +88,12 @@
 
 <h2>Known limitations</h2>
 <ul>
-  <li>About 23 percent of NYC stores in the file have no reported square footage. Those stores are toggleable on the map but excluded by default from the supermarket counts. They are likely a mix of supermarkets and smaller stores; treating them as either would bias the picture.</li>
-  <li>Address points are based on the operator-filed address and are not independently verified against street-level imagery.</li>
+  <li><strong>Data freshness.</strong> The state file was last row-updated on 2025-09-30 and last view-updated on 2026-04-23. New stores can take weeks to months to appear after they open. The Lidl at 120 Fifth Avenue in Brooklyn (Park Slope, opened early 2026) is a known missing entry. Other recent openings will have the same lag.</li>
+  <li><strong>License is not category.</strong> The state license does not distinguish supermarkets from pharmacies, breweries, or dollar stores. We use a name-based filter to approximate &quot;supermarket,&quot; but the filter is heuristic and will miss edge cases.</li>
+  <li>About 20 percent of NYC stores have no reported square footage. They are toggleable on the map but excluded by default from the supermarket counts. They are likely a mix of supermarkets and smaller stores; treating them as either would bias the picture.</li>
+  <li>Address points are operator-filed and not independently verified against street-level imagery.</li>
   <li>The 5,000-square-foot threshold for &quot;full supermarket&quot; is a convention, not a legal definition. Some stores between 2,500 and 5,000 square feet are full-service in practice; some chain stores above 10,000 square feet are mostly prepared-food and convenience.</li>
-  <li>Population denominators are 2020 Census totals. Borough population has shifted since then, but not enough to materially change the per-100,000 ratios.</li>
+  <li>Population denominators are 2020 Census totals (borough table) and DOHMH MODZCTA estimates (ZIP density layer). Population has shifted since then, but not enough to materially change the per-resident ratios.</li>
   <li>Four of the five planned public supermarket sites are not yet announced. The map will be updated when each site is identified.</li>
 </ul>
 
